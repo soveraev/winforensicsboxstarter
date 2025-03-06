@@ -11,6 +11,9 @@ choco install sublimetext4
 choco install notepadplusplus
 choco install office365business
 
+# Stop Windows telemetry
+choco install wpd
+
 # General Tools
 choco install jq
 choco install putty.install
