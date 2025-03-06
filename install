@@ -1,6 +1,9 @@
 # General settings
 Set-ExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 
+# Drivers
+choco install nvidia-display-driver
+
 # VM Tools
 choco install vmwareworkstation
 choco install wsl2
