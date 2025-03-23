@@ -1,0 +1,40 @@
+# General settings
+Set-ExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+
+# VM Tools
+choco install wsl2
+choco install wsl-ubuntu-2204
+
+# Text editing
+choco install sublimetext4
+choco install notepadplusplus
+choco install office365business
+
+# Stop Windows telemetry
+choco install wpd
+
+# General Tools
+choco install pwsh
+choco install jq
+choco install putty.install
+choco install usbdeview
+choco install googlechrome
+choco install firefox
+choco install 7zip.install
+choco install vlc
+choco install cutepdf
+choco install sumatrapdf.install
+choco install chromium
+choco install itunes
+choco install winscp.install
+choco install awscli
+choco install wiztree
+choco install microsoft-windows-terminal
+
+# Forensic tools
+choco install forensic7z
+choco install ericzimmermantools
+choco install network-miner
+choco install trid
+choco install sysinternals
+choco install wireshark

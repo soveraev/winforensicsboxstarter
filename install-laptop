@@ -18,6 +18,7 @@ choco install office365business
 choco install wpd
 
 # General Tools
+choco install pwsh
 choco install jq
 choco install putty.install
 choco install usbdeview
